@@ -1,0 +1,90 @@
+/* ==== GLOBAL ==== */
+body {
+    background-color: #f1f5f9;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* ==== SIDEBAR ==== */
+.sidebar {
+    background: linear-gradient(180deg, #1e3a8a, #2563eb);
+    min-height: 100vh;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: #e0e7ff;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255,255,255,0.15);
+}
+
+/* ==== CONTENT ==== */
+.content {
+    padding: 30px;
+}
+
+/* ==== CARD ==== */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ==== BUTTON ==== */
+.btn-primary {
+    background-color: #2563eb;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e40af;
+}
+
+/* ==== TABLE ==== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background-color: #1e40af;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* ==== ACTION LINK ==== */
+.action a {
+    margin-right: 8px;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.action a:hover {
+    text-decoration: underline;
+}
